@@ -33,7 +33,6 @@
 $notify_list = [ qw(
     zhangpeng@e-future.com.cn
     john.do@anywhere.go
-
 )];
 ```
 
