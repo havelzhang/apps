@@ -1,7 +1,7 @@
 # load_impsp.pl
 - 程序目的：
 
->  load pspmemd_yyyymmdd.csv接口。
+>  load pspmemd_yyyymmdd.csv接口到NSACCU.nsaccu.NSA_P4_IMPSP表中。
 
 - 重跑方法:
 
