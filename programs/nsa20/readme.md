@@ -1,4 +1,8 @@
 # load_impsp.pl
+- 程序目的：
+
+>  load pspmemd_yyyymmdd.csv接口。
+
 - 重跑方法:
 
 > cd e:\apps\programs\nsa20\
