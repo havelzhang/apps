@@ -18,7 +18,7 @@
 
 - loading log文件所在地：
 
-  d:\applogs\nsa20\yyyymmdd
+>  d:\applogs\nsa20\yyyymmdd
 
   其中有sql loader的log文件:sqlldr_impsp_yyyymmdd_hhmiss.log
 
