@@ -25,7 +25,7 @@
   > 信的内容
   >
 
-  4. 例子：
+    文件内容的例子：
   
   ```
   TO|zhangpeng@e-future.com.cn
