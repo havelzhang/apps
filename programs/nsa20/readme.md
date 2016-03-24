@@ -1,7 +1,7 @@
 # load_impsp.pl
 - 程序目的：
 
->  load pspmemd_yyyymmdd.csv接口到NSACCU.nsaccu.NSA_P4_IMPSP表中。
+  装载 pspmemd_yyyymmdd.csv接口到NSACCU.nsaccu.NSA_P4_IMPSP表中。
 
 - 重跑方法:
 
@@ -18,11 +18,11 @@
 
 - loading log文件所在地：
 
-> d:\applogs\nsa20\yyyymmdd
->
-> 其中有sql loader的log文件:sqlldr_impsp_yyyymmdd_hhmiss.log
->
-> 还有程序本身的log文件：nsa20.impspyyyymmdd_hhmiss.log
+  d:\applogs\nsa20\yyyymmdd
+
+  其中有sql loader的log文件:sqlldr_impsp_yyyymmdd_hhmiss.log
+
+  还有程序本身的log文件：nsa20.impspyyyymmdd_hhmiss.log
 
 - 本地接口文件所在地：
 
@@ -30,9 +30,9 @@
 
 - 如果loading失败...
 
-> 万一loading失败，程序会发邮件通知相关人员。相关人员的邮箱设置在:
->
-> e:\apps\config\impsp_config.pl 文件中的$notify_list变量所定义的匿名字串数组中。只要把邮箱地址一行行写入即可，以回车分隔:
+ 万一loading失败，程序会发邮件通知相关人员。相关人员的邮箱设置在:
+
+ ```e:\apps\config\impsp_config.pl``` 文件中的```$notify_list```变量所定义的匿名字串数组中。只要把邮箱地址一行行写入即可，以回车分隔:
 ```perl
 $notify_list = [ qw(
     zhangpeng@e-future.com.cn
@@ -40,7 +40,7 @@ $notify_list = [ qw(
 )];
 ```
 
-> 可以根据邮件内容及看log文件查看问题出在哪里。
+  可以根据邮件内容及看log文件查看问题出在哪里。
   
 
 
