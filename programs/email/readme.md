@@ -11,7 +11,7 @@
   1. 这个文件放在```e:\applogs\email\yyyymmdd```目录。（实际上是```e:\apps\config\site_config\emailDir```指定的目录。）
   2. 这个文件名以email开头的，以txt为后缀的文件。如：
 
-  > email_impsp_20160324_160135.txt
+      > email_impsp_20160324_160135.txt
 
   3. 文件内容如下：
   > TO:|{以竖线分隔的邮箱列表，用来放要投递的邮箱地址}
