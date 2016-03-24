@@ -19,6 +19,7 @@ $notify_list = [ qw(
 ```
 
 > 可以根据邮件内容及看log文件查看问题出在哪里。
+
 > 另外，程序是根据表NSACCU.HOLDING_LICENSES_NOTICE.contact_email字段来确定厂商的邮箱地址的，如果这个字段内容没有‘@’符号，我们将认为这个邮箱地址是无效的，会将此条记录的flag设为-1,表示这个厂商无法投递。
 
   
