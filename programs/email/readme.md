@@ -9,14 +9,23 @@
   符合以下条件的文件会被这个程序找到并发出去：
   1. 这个文件放在e:\applogs\email\yyyymmdd目录。（实际上是e:\apps\config\site_config\emailDir指定的目录。）
   2. 这个文件名以email开头的，以txt为后缀的文件。如：
+
   > email_impsp_20160324_160135.txt
+
   3. 文件内容如下：
   > TO:|{以竖线分隔的邮箱列表，用来放要投递的邮箱地址}
+  >
   > SUBJECT:|{邮件标题}
+  >
   > ATTACH:|{附件路径的绝对地址}
+  >
   > =============================================
+  >
   > 信的内容
+  >
+
   4. 例子：
+  
   ```
   TO|zhangpeng@e-future.com.cn
   SUBJECT|nsa20.impsp has Error!
